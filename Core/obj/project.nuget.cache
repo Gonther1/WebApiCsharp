@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lLPIIN0gYPbV/ZX2RsoM+frSLL/O38y9dxBiDaep6xk34AsDUcWdOxAOcFDdEH6iqWfaML+gW/qfVrB8RipH7A==",
+  "dgSpecHash": "dbQcgX9H2JJ0ortT3NoQgkUsfS7Jsc4UBsfs0wsENN6H7X1/7oa++6zs1jBiblSXvMpq46zuvHDE/9VKg/1+fg==",
   "success": true,
-  "projectFilePath": "/workspaces/WebApiCsharp/Core/Core.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

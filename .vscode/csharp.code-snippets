@@ -1,0 +1,64 @@
+{
+	 
+	"Print to console": {
+	 	"scope": "javascript,typescript",
+	 	"prefix": "log",
+	 	"body": [
+	 		"console.log('$1');",
+	 		"$2"
+	 	],
+	 	"description": "Log output to console"
+	 },
+	 "Connection String": {
+		"prefix": "ConnectionString",
+		"body": [
+			"\"ConnectionString\": {",
+				"\t\"NombreDeLaConexion\":\"server=localhost;user=root;password=123456;database=default\"",
+			"}"
+		]
+	 },
+	 "Create OnModelInContextFile": {
+		"scope": "csharp",
+		"prefix": "OnModelCreating",
+		"body": [
+			"protected override void OnModelCreating(ModelBuilder modelBuilder)",		
+			"{",
+				"\tbase.OnModelCreating(modelBuilder);",
+				"\tmodelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());",
+			"}"
+		],
+		"description": "Create OnModelCreating"
+	 },
+	 "Create builder.Services in Program": {
+        "prefix": "AddDbContext",
+        "body": [
+			"builder.Services.AddDbContext<FileContext>(options =>",
+			"{",
+				"\tstring ? connectionString = builder.Configuration.GetConnectionString(\"Default\");",
+				"\toptions.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));",
+			"});"
+        ],
+        "description": "Function for program"
+    },
+	"Create builder.ToTable With other things": {
+        "prefix": "builderTable",
+        "body": [
+			"builder.ToTable(\"NameTable\");"
+			"builder.HasKey(e => e.Default);"
+			"builder.Property(e => e.Default);"
+        ],
+        "description": "Function for create something in ConfigurationFiles"
+    },
+	"Create builder.Property With other things": {
+        "prefix": "builderProperty",
+        "body": [
+			"builder.Property(p => p.Default)",
+			".IsRequired()",
+			".HasMaxLength();"
+        ],
+        "description": "Function for create something in ConfigurationFiles"
+    }
+/* 
+
+	 */
+}

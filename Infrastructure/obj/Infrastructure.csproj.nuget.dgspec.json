@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/WebApiCsharp/Infrastructure/Infrastructure.csproj": {}
+    "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "/workspaces/WebApiCsharp/Core/Core.csproj": {
+    "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WebApiCsharp/Core/Core.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "/workspaces/WebApiCsharp/Core/Core.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WebApiCsharp/Core/obj/",
+        "projectPath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,21 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/WebApiCsharp/Infrastructure/Infrastructure.csproj": {
+    "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WebApiCsharp/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/workspaces/WebApiCsharp/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WebApiCsharp/Infrastructure/obj/",
+        "projectPath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/workspaces/WebApiCsharp/Core/Core.csproj": {
-                "projectPath": "/workspaces/WebApiCsharp/Core/Core.csproj"
+              "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\USER\\Desktop\\WebApiCsharp\\Core\\Core.csproj"
               }
             }
           }
@@ -94,6 +94,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[30.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -110,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
