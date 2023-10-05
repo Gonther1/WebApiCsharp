@@ -24,4 +24,6 @@ public class WebApiCsharpContext : DbContext
     }
 
     // Una vez creada la funcion OnModelCreating en program creamos la otra funcion
+
+    // dotnet tool list -g
 }
